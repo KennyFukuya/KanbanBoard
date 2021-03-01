@@ -50,6 +50,10 @@ Seguir o passo a passo fornecido nesse repositório para obter o Backend:
 ```
 > https://gitlab.com/gabriel.militello1/desafio-tecnico-frontend
 ```
+OBS:
+```
+> Tentei colocar o backend neste repositório, porém ele não estava funcionando quando eu tentei rodar. Por esse motivo, baixe o backend pelo repositório original!
+```
 
 Em seguida suba o Frontend como descrito a seguir:
 
