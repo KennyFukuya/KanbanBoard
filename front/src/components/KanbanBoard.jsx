@@ -75,9 +75,6 @@ function KanbanBoard() {
                     .then(data => {
                         if (!data)
                             return;
-
-                        if (data && data.errorMessage) 
-                            enqueueSnackBar(data.errorMessage, 'error');
                         
                         organizeColumns({ data, columns: defaultColumns, setColumns });
                     })
@@ -141,7 +138,7 @@ function KanbanBoard() {
                     return;
 
                 if (data && data.errorMessage) 
-                    enqueueSnackBar(data.errorMessage, 'error');
+                    return enqueueSnackBar(data.errorMessage, 'error');
 
                 organizeColumns({ data, columns: defaultColumns, setColumns });
                 enqueueSnackBar('Task deleted!', 'success');
@@ -174,7 +171,7 @@ function KanbanBoard() {
                         return;
                     
                     if (response && response.errorMessage) 
-                        enqueueSnackBar(response.errorMessage, 'error');
+                        return enqueueSnackBar(response.errorMessage, 'error');
 
                     const newColumns = JSON.parse(JSON.stringify(_columns));
                     const cards = newColumns[data.lista].cards;
@@ -191,7 +188,7 @@ function KanbanBoard() {
                         return;
 
                     if (response && response.errorMessage) 
-                        enqueueSnackBar(response.errorMessage, 'error');
+                        return enqueueSnackBar(response.errorMessage, 'error');
 
                     organizeColumns({ data: [response], columns, setColumns });
                     enqueueSnackBar('Task created!', 'success');
