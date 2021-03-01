@@ -73,7 +73,7 @@ function KanbanBoard() {
             .then(() => {
                 AuthServices.getCards()
                     .then(data => {
-                        if (!data)
+                        if (!data || (data && data.errorMessage))
                             return;
                         
                         organizeColumns({ data, columns: defaultColumns, setColumns });
