@@ -50,9 +50,9 @@ Seguir o passo a passo fornecido nesse repositório para obter o Backend:
 ```
 > https://gitlab.com/gabriel.militello1/desafio-tecnico-frontend
 ```
-OBS:
-```
-> Tentei colocar um cópia do backend neste repositório, porém ele não estava funcionando a geração do token de autenticação (:eyes:). 
+OBS: :eyes: :eyes: :eyes: :eyes: :eyes:
+```console
+> Tentei colocar um cópia do backend neste repositório, porém ele não estava funcionando a geração do token de autenticação. 
 > Por esse motivo, baixe o backend pelo repositório original!
 ```
 
