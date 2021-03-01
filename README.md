@@ -52,7 +52,8 @@ Seguir o passo a passo fornecido nesse repositório para obter o Backend:
 ```
 OBS:
 ```
-> Tentei colocar o backend neste repositório, porém ele não estava funcionando quando eu tentei rodar. Por esse motivo, baixe o backend pelo repositório original!
+> Tentei colocar um cópia do backend neste repositório, porém ele não estava funcionando a geração do token de autenticação (:eyes:). 
+> Por esse motivo, baixe o backend pelo repositório original!
 ```
 
 Em seguida suba o Frontend como descrito a seguir:
