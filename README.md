@@ -45,12 +45,10 @@ Versões utilizadas:
 
 ## Como executar
 
-Primeiramente suba o Backend com os seguintes comandos:
+Seguir o passo a passo fornecido nesse repositório para obter o Backend:
 
-```console
-> cd BACK
-> npm install
-> npm run server
+```
+> https://gitlab.com/gabriel.militello1/desafio-tecnico-frontend
 ```
 
 Em seguida suba o Frontend como descrito a seguir:
