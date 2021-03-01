@@ -1,0 +1,11 @@
+.MuiAppBar-colorPrimary {
+    background-color:#5682A3 !important;
+}
+
+.MuiButton-containedPrimary {
+    background-color:#5682A3 !important;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color:#5a8fb8 !important;
+}

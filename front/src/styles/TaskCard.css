@@ -1,0 +1,12 @@
+.MuiCardContent-root:last-child {
+    padding-bottom: 8px !important;
+}
+
+.MuiCardActions-spacing > :not(:first-child) {
+    margin-left: 0px !important;
+}
+
+.MuiCardActions-root {
+    display: inline !important;
+    padding: 0px !important;
+}
